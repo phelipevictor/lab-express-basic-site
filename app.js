@@ -16,8 +16,8 @@ app.get('/photos', (request, response, next) => {
     response.sendFile(__dirname + '/views/PhotoPage.html')
 })
 
-app.get('/works', (request, response, next) => {
+app.get('/books', (request, response, next) => {
     response.sendFile(__dirname + '/views/WorksPage.html')
 })
 
-app.listen(3000, () => console.log('Stephen King is online! '))
+app.listen(3000, () => console.log('Running on port 3000.'))
