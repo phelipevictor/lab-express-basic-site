@@ -1,0 +1,33 @@
+body {
+    background-image: url("/images/homebackground.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-family: couriernew;
+    font-size: 100px;
+    justify-content: center;
+    text-align: center;
+    color: red;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 45px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.links {
+    text-align: center;
+    justify-content: center;
+    font-size: 55px;
+}
+
+a {
+    color: #5e2129;
+}
